@@ -1,0 +1,85 @@
+::after,
+:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+@font-face {
+  font-family: Arcade;
+  src: url('../fonts/ARCADE_I.TTF');
+}
+
+body {
+	background: url('../img/bg4.jpg') fixed no-repeat 0 0;
+	background-size: cover;
+	background-position: center center;
+  font-family: Arcade;
+  font-size: 100%;
+}
+
+#particles-js{
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.img-logo{
+  width: 150px;
+  height: 150px;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #00bfff;
+  border-radius: 5px;
+}
+
+.btn-blue {
+  color: #fff;
+  border: 2px solid #00bfff;
+  background-color: rgba(10, 132, 172, 0.6);
+  border-top-left-radius: 1px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 14px;
+  &:hover{
+    color: #fff;
+    border: 2px solid #00e9fe;
+    background-color: rgba(5, 167, 221, 0.6);
+  }
+}
+.btn-yellow {
+  color: #fff;
+  border: 2px solid #fffb00;
+  background-color: rgba(172, 172, 10, 0.6);
+  border-top-left-radius: 1px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 14px;
+  &:hover{
+    color: #fff;
+    border: 2px solid #e9fe00;
+    background-color: rgba(221, 217, 5, 0.6);
+  }
+}
+.btn-green {
+  color: #fff;
+  border: 2px solid #00ff44;
+  background-color: rgba(21, 172, 10, 0.6);
+  border-top-left-radius: 1px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 14px;
+  &:hover{
+    color: #fff;
+    border: 2px solid #00fe0d;
+    background-color: rgba(5, 221, 5, 0.6);
+  }
+}

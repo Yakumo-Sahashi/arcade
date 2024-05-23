@@ -1,0 +1,50 @@
+body {
+  background: url("../public/img/bg6.jpg") fixed no-repeat 0 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+#pacman {
+  height: 470px;
+  width: 382px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+#shim {
+  font-family: 'Permanent Marker', cursive;
+  position: absolute;
+  visibility: hidden
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: yellow;
+}
+
+body {
+  width: 342px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+.btn-t{
+  color: #0000FF;
+  margin-top: 35px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  text-align: center;
+  text-justify: auto;
+  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
+  &:hover{
+    color: #3131f8;
+    box-shadow: #3131f8;
+  }
+}
